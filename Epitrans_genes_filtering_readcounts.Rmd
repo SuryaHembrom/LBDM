@@ -142,7 +142,7 @@ dev.off()
 #FPKM normalisation: from DESeq2 package: does not work as requires GRanges, genomic ranges for each gene annotated
 
 ```{r}
-## dds 1
+## dds2
 #design.disease <- factor(c(condition.disease$condition))
 #dds2 <- DESeqDataSetFromMatrix(countData = filter.epitrans.counts,
                               #tidy= FALSE,
